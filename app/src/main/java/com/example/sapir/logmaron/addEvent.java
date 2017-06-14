@@ -1,5 +1,6 @@
 package com.example.sapir.logmaron;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,5 +16,9 @@ public class addEvent extends AppCompatActivity {
 
     public void showMessage(View view){
         Toast.makeText(this, "פה תהיה הוספה של טוסט עם זיתים", Toast.LENGTH_SHORT).show();
+
+    public void AddEvent(View aview) {
+        Intent i = new Intent(getApplicationContext(), Notification.class);
+        startActivity(i);
     }
 }
