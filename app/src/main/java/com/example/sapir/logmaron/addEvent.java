@@ -14,8 +14,9 @@ public class addEvent extends AppCompatActivity {
         setContentView(R.layout.activity_add_event);
     }
 
-    public void showMessage(View view){
+    public void showMessage(View view) {
         Toast.makeText(this, "פה תהיה הוספה של טוסט עם זיתים", Toast.LENGTH_SHORT).show();
+    }
 
     public void AddEvent(View aview) {
         Intent i = new Intent(getApplicationContext(), Notification.class);
