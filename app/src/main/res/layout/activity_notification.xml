@@ -14,6 +14,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginTop="72dp"
         android:background="#e3b2f8"
+        android:onClick="AddEvent"
         android:text="הוספת אירוע"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
