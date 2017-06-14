@@ -1,3 +1,0 @@
-# Mr.Log
-
-Hello
